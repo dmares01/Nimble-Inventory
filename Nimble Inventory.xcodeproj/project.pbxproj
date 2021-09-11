@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ECEE2D226EC2F9100C20BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D126EC2F9100C20BDB /* AppDelegate.swift */; };
+		6ECEE2D426EC2F9100C20BDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D326EC2F9100C20BDB /* SceneDelegate.swift */; };
+		6ECEE2D626EC2F9100C20BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D526EC2F9100C20BDB /* ContentView.swift */; };
+		6ECEE2D926EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D726EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld */; };
+		6ECEE2DB26EC2F9200C20BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEE2DA26EC2F9200C20BDB /* Assets.xcassets */; };
+		6ECEE2DE26EC2F9200C20BDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEE2DD26EC2F9200C20BDB /* Preview Assets.xcassets */; };
+		6ECEE2E126EC2F9200C20BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEE2DF26EC2F9200C20BDB /* LaunchScreen.storyboard */; };
+		6ECEE2EC26EC2F9200C20BDB /* Nimble_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2EB26EC2F9200C20BDB /* Nimble_InventoryTests.swift */; };
+		6ECEE2F726EC2F9200C20BDB /* Nimble_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2F626EC2F9200C20BDB /* Nimble_InventoryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ECEE2E826EC2F9200C20BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECEE2C626EC2F9100C20BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECEE2CD26EC2F9100C20BDB;
+			remoteInfo = "Nimble Inventory";
+		};
+		6ECEE2F326EC2F9200C20BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECEE2C626EC2F9100C20BDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECEE2CD26EC2F9100C20BDB;
+			remoteInfo = "Nimble Inventory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ECEE2CE26EC2F9100C20BDB /* Nimble Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECEE2D126EC2F9100C20BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ECEE2D326EC2F9100C20BDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6ECEE2D526EC2F9100C20BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6ECEE2D826EC2F9100C20BDB /* Nimble_Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nimble_Inventory.xcdatamodel; sourceTree = "<group>"; };
+		6ECEE2DA26EC2F9200C20BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECEE2DD26EC2F9200C20BDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ECEE2E026EC2F9200C20BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ECEE2E226EC2F9200C20BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECEE2E726EC2F9200C20BDB /* Nimble InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECEE2EB26EC2F9200C20BDB /* Nimble_InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryTests.swift; sourceTree = "<group>"; };
+		6ECEE2ED26EC2F9200C20BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECEE2F226EC2F9200C20BDB /* Nimble InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECEE2F626EC2F9200C20BDB /* Nimble_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryUITests.swift; sourceTree = "<group>"; };
+		6ECEE2F826EC2F9200C20BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECEE2CB26EC2F9100C20BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECEE2E426EC2F9200C20BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECEE2EF26EC2F9200C20BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECEE2C526EC2F9100C20BDB = {
+			isa = PBXGroup;
+			children = (
+				6ECEE2D026EC2F9100C20BDB /* Nimble Inventory */,
+				6ECEE2EA26EC2F9200C20BDB /* Nimble InventoryTests */,
+				6ECEE2F526EC2F9200C20BDB /* Nimble InventoryUITests */,
+				6ECEE2CF26EC2F9100C20BDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECEE2CF26EC2F9100C20BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEE2CE26EC2F9100C20BDB /* Nimble Inventory.app */,
+				6ECEE2E726EC2F9200C20BDB /* Nimble InventoryTests.xctest */,
+				6ECEE2F226EC2F9200C20BDB /* Nimble InventoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECEE2D026EC2F9100C20BDB /* Nimble Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEE2D126EC2F9100C20BDB /* AppDelegate.swift */,
+				6ECEE2D326EC2F9100C20BDB /* SceneDelegate.swift */,
+				6ECEE2D526EC2F9100C20BDB /* ContentView.swift */,
+				6ECEE2DA26EC2F9200C20BDB /* Assets.xcassets */,
+				6ECEE2DF26EC2F9200C20BDB /* LaunchScreen.storyboard */,
+				6ECEE2E226EC2F9200C20BDB /* Info.plist */,
+				6ECEE2D726EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld */,
+				6ECEE2DC26EC2F9200C20BDB /* Preview Content */,
+			);
+			path = "Nimble Inventory";
+			sourceTree = "<group>";
+		};
+		6ECEE2DC26EC2F9200C20BDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEE2DD26EC2F9200C20BDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6ECEE2EA26EC2F9200C20BDB /* Nimble InventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEE2EB26EC2F9200C20BDB /* Nimble_InventoryTests.swift */,
+				6ECEE2ED26EC2F9200C20BDB /* Info.plist */,
+			);
+			path = "Nimble InventoryTests";
+			sourceTree = "<group>";
+		};
+		6ECEE2F526EC2F9200C20BDB /* Nimble InventoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECEE2F626EC2F9200C20BDB /* Nimble_InventoryUITests.swift */,
+				6ECEE2F826EC2F9200C20BDB /* Info.plist */,
+			);
+			path = "Nimble InventoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECEE2FB26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble Inventory" */;
+			buildPhases = (
+				6ECEE2CA26EC2F9100C20BDB /* Sources */,
+				6ECEE2CB26EC2F9100C20BDB /* Frameworks */,
+				6ECEE2CC26EC2F9100C20BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nimble Inventory";
+			productName = "Nimble Inventory";
+			productReference = 6ECEE2CE26EC2F9100C20BDB /* Nimble Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ECEE2E626EC2F9200C20BDB /* Nimble InventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECEE2FE26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryTests" */;
+			buildPhases = (
+				6ECEE2E326EC2F9200C20BDB /* Sources */,
+				6ECEE2E426EC2F9200C20BDB /* Frameworks */,
+				6ECEE2E526EC2F9200C20BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECEE2E926EC2F9200C20BDB /* PBXTargetDependency */,
+			);
+			name = "Nimble InventoryTests";
+			productName = "Nimble InventoryTests";
+			productReference = 6ECEE2E726EC2F9200C20BDB /* Nimble InventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ECEE2F126EC2F9200C20BDB /* Nimble InventoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECEE30126EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryUITests" */;
+			buildPhases = (
+				6ECEE2EE26EC2F9200C20BDB /* Sources */,
+				6ECEE2EF26EC2F9200C20BDB /* Frameworks */,
+				6ECEE2F026EC2F9200C20BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECEE2F426EC2F9200C20BDB /* PBXTargetDependency */,
+			);
+			name = "Nimble InventoryUITests";
+			productName = "Nimble InventoryUITests";
+			productReference = 6ECEE2F226EC2F9200C20BDB /* Nimble InventoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECEE2C626EC2F9100C20BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6ECEE2CD26EC2F9100C20BDB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6ECEE2E626EC2F9200C20BDB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6ECEE2CD26EC2F9100C20BDB;
+					};
+					6ECEE2F126EC2F9200C20BDB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 6ECEE2CD26EC2F9100C20BDB;
+					};
+				};
+			};
+			buildConfigurationList = 6ECEE2C926EC2F9100C20BDB /* Build configuration list for PBXProject "Nimble Inventory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECEE2C526EC2F9100C20BDB;
+			productRefGroup = 6ECEE2CF26EC2F9100C20BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */,
+				6ECEE2E626EC2F9200C20BDB /* Nimble InventoryTests */,
+				6ECEE2F126EC2F9200C20BDB /* Nimble InventoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECEE2CC26EC2F9100C20BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECEE2E126EC2F9200C20BDB /* LaunchScreen.storyboard in Resources */,
+				6ECEE2DE26EC2F9200C20BDB /* Preview Assets.xcassets in Resources */,
+				6ECEE2DB26EC2F9200C20BDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECEE2E526EC2F9200C20BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECEE2F026EC2F9200C20BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECEE2CA26EC2F9100C20BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECEE2D226EC2F9100C20BDB /* AppDelegate.swift in Sources */,
+				6ECEE2D926EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld in Sources */,
+				6ECEE2D426EC2F9100C20BDB /* SceneDelegate.swift in Sources */,
+				6ECEE2D626EC2F9100C20BDB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECEE2E326EC2F9200C20BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECEE2EC26EC2F9200C20BDB /* Nimble_InventoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECEE2EE26EC2F9200C20BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECEE2F726EC2F9200C20BDB /* Nimble_InventoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ECEE2E926EC2F9200C20BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */;
+			targetProxy = 6ECEE2E826EC2F9200C20BDB /* PBXContainerItemProxy */;
+		};
+		6ECEE2F426EC2F9200C20BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */;
+			targetProxy = 6ECEE2F326EC2F9200C20BDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ECEE2DF26EC2F9200C20BDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECEE2E026EC2F9200C20BDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ECEE2F926EC2F9200C20BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ECEE2FA26EC2F9200C20BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECEE2FC26EC2F9200C20BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nimble Inventory/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Nimble Inventory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purple-Turtle-Tech.Nimble-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ECEE2FD26EC2F9200C20BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nimble Inventory/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Nimble Inventory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purple-Turtle-Tech.Nimble-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ECEE2FF26EC2F9200C20BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nimble InventoryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purple-Turtle-Tech.Nimble-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimble Inventory.app/Nimble Inventory";
+			};
+			name = Debug;
+		};
+		6ECEE30026EC2F9200C20BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nimble InventoryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purple-Turtle-Tech.Nimble-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimble Inventory.app/Nimble Inventory";
+			};
+			name = Release;
+		};
+		6ECEE30226EC2F9200C20BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nimble InventoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purple-Turtle-Tech.Nimble-InventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nimble Inventory";
+			};
+			name = Debug;
+		};
+		6ECEE30326EC2F9200C20BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nimble InventoryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purple-Turtle-Tech.Nimble-InventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nimble Inventory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECEE2C926EC2F9100C20BDB /* Build configuration list for PBXProject "Nimble Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECEE2F926EC2F9200C20BDB /* Debug */,
+				6ECEE2FA26EC2F9200C20BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECEE2FB26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECEE2FC26EC2F9200C20BDB /* Debug */,
+				6ECEE2FD26EC2F9200C20BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECEE2FE26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECEE2FF26EC2F9200C20BDB /* Debug */,
+				6ECEE30026EC2F9200C20BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECEE30126EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECEE30226EC2F9200C20BDB /* Debug */,
+				6ECEE30326EC2F9200C20BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ECEE2D726EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ECEE2D826EC2F9100C20BDB /* Nimble_Inventory.xcdatamodel */,
+			);
+			currentVersion = 6ECEE2D826EC2F9100C20BDB /* Nimble_Inventory.xcdatamodel */;
+			path = Nimble_Inventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ECEE2C626EC2F9100C20BDB /* Project object */;
+}
