@@ -16,6 +16,9 @@
 		6E27ED3626EE813700CB89E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED3426EE813700CB89E3 /* LaunchScreen.storyboard */; };
 		6E27ED4126EE813700CB89E3 /* Nimble_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED4026EE813700CB89E3 /* Nimble_InventoryTests.swift */; };
 		6E27ED4C26EE813700CB89E3 /* Nimble_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED4B26EE813700CB89E3 /* Nimble_InventoryUITests.swift */; };
+		6E27ED5A26EE81C100CB89E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED5926EE81C100CB89E3 /* README.md */; };
+		6E27ED5C26EE81D800CB89E3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED5B26EE81D800CB89E3 /* LICENSE */; };
+		6E27ED5E26EE81E300CB89E3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED5D26EE81E300CB89E3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		6E27ED4726EE813700CB89E3 /* Nimble InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E27ED4B26EE813700CB89E3 /* Nimble_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryUITests.swift; sourceTree = "<group>"; };
 		6E27ED4D26EE813700CB89E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E27ED5926EE81C100CB89E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6E27ED5B26EE81D800CB89E3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E27ED5D26EE81E300CB89E3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		6E27ED1A26EE813500CB89E3 = {
 			isa = PBXGroup;
 			children = (
+				6E27ED5D26EE81E300CB89E3 /* .gitignore */,
+				6E27ED5B26EE81D800CB89E3 /* LICENSE */,
+				6E27ED5926EE81C100CB89E3 /* README.md */,
 				6E27ED2526EE813500CB89E3 /* Nimble Inventory */,
 				6E27ED3F26EE813700CB89E3 /* Nimble InventoryTests */,
 				6E27ED4A26EE813700CB89E3 /* Nimble InventoryUITests */,
@@ -236,7 +245,10 @@
 			files = (
 				6E27ED3626EE813700CB89E3 /* LaunchScreen.storyboard in Resources */,
 				6E27ED3326EE813700CB89E3 /* Assets.xcassets in Resources */,
+				6E27ED5A26EE81C100CB89E3 /* README.md in Resources */,
 				6E27ED2E26EE813500CB89E3 /* Main.storyboard in Resources */,
+				6E27ED5E26EE81E300CB89E3 /* .gitignore in Resources */,
+				6E27ED5C26EE81D800CB89E3 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
