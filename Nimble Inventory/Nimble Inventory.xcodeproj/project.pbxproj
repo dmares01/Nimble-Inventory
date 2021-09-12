@@ -7,69 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6ECEE2D226EC2F9100C20BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D126EC2F9100C20BDB /* AppDelegate.swift */; };
-		6ECEE2D426EC2F9100C20BDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D326EC2F9100C20BDB /* SceneDelegate.swift */; };
-		6ECEE2D626EC2F9100C20BDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D526EC2F9100C20BDB /* ContentView.swift */; };
-		6ECEE2D926EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2D726EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld */; };
-		6ECEE2DB26EC2F9200C20BDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEE2DA26EC2F9200C20BDB /* Assets.xcassets */; };
-		6ECEE2DE26EC2F9200C20BDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEE2DD26EC2F9200C20BDB /* Preview Assets.xcassets */; };
-		6ECEE2E126EC2F9200C20BDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECEE2DF26EC2F9200C20BDB /* LaunchScreen.storyboard */; };
-		6ECEE2EC26EC2F9200C20BDB /* Nimble_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2EB26EC2F9200C20BDB /* Nimble_InventoryTests.swift */; };
-		6ECEE2F726EC2F9200C20BDB /* Nimble_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEE2F626EC2F9200C20BDB /* Nimble_InventoryUITests.swift */; };
+		6E27ED2726EE813500CB89E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED2626EE813500CB89E3 /* AppDelegate.swift */; };
+		6E27ED2926EE813500CB89E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED2826EE813500CB89E3 /* SceneDelegate.swift */; };
+		6E27ED2B26EE813500CB89E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED2A26EE813500CB89E3 /* ViewController.swift */; };
+		6E27ED2E26EE813500CB89E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED2C26EE813500CB89E3 /* Main.storyboard */; };
+		6E27ED3126EE813500CB89E3 /* Nimble_Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED2F26EE813500CB89E3 /* Nimble_Inventory.xcdatamodeld */; };
+		6E27ED3326EE813700CB89E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED3226EE813700CB89E3 /* Assets.xcassets */; };
+		6E27ED3626EE813700CB89E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E27ED3426EE813700CB89E3 /* LaunchScreen.storyboard */; };
+		6E27ED4126EE813700CB89E3 /* Nimble_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED4026EE813700CB89E3 /* Nimble_InventoryTests.swift */; };
+		6E27ED4C26EE813700CB89E3 /* Nimble_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E27ED4B26EE813700CB89E3 /* Nimble_InventoryUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6ECEE2E826EC2F9200C20BDB /* PBXContainerItemProxy */ = {
+		6E27ED3D26EE813700CB89E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6ECEE2C626EC2F9100C20BDB /* Project object */;
+			containerPortal = 6E27ED1B26EE813500CB89E3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6ECEE2CD26EC2F9100C20BDB;
+			remoteGlobalIDString = 6E27ED2226EE813500CB89E3;
 			remoteInfo = "Nimble Inventory";
 		};
-		6ECEE2F326EC2F9200C20BDB /* PBXContainerItemProxy */ = {
+		6E27ED4826EE813700CB89E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6ECEE2C626EC2F9100C20BDB /* Project object */;
+			containerPortal = 6E27ED1B26EE813500CB89E3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6ECEE2CD26EC2F9100C20BDB;
+			remoteGlobalIDString = 6E27ED2226EE813500CB89E3;
 			remoteInfo = "Nimble Inventory";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6ECEE2CE26EC2F9100C20BDB /* Nimble Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ECEE2D126EC2F9100C20BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6ECEE2D326EC2F9100C20BDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6ECEE2D526EC2F9100C20BDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6ECEE2D826EC2F9100C20BDB /* Nimble_Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nimble_Inventory.xcdatamodel; sourceTree = "<group>"; };
-		6ECEE2DA26EC2F9200C20BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6ECEE2DD26EC2F9200C20BDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6ECEE2E026EC2F9200C20BDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6ECEE2E226EC2F9200C20BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECEE2E726EC2F9200C20BDB /* Nimble InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ECEE2EB26EC2F9200C20BDB /* Nimble_InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryTests.swift; sourceTree = "<group>"; };
-		6ECEE2ED26EC2F9200C20BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECEE2F226EC2F9200C20BDB /* Nimble InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ECEE2F626EC2F9200C20BDB /* Nimble_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryUITests.swift; sourceTree = "<group>"; };
-		6ECEE2F826EC2F9200C20BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECEE30426EC30CE00C20BDB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6E27ED2326EE813500CB89E3 /* Nimble Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimble Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27ED2626EE813500CB89E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E27ED2826EE813500CB89E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E27ED2A26EE813500CB89E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E27ED2D26EE813500CB89E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E27ED3026EE813500CB89E3 /* Nimble_Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nimble_Inventory.xcdatamodel; sourceTree = "<group>"; };
+		6E27ED3226EE813700CB89E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E27ED3526EE813700CB89E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E27ED3726EE813700CB89E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E27ED3C26EE813700CB89E3 /* Nimble InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27ED4026EE813700CB89E3 /* Nimble_InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryTests.swift; sourceTree = "<group>"; };
+		6E27ED4226EE813700CB89E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E27ED4726EE813700CB89E3 /* Nimble InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimble InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27ED4B26EE813700CB89E3 /* Nimble_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimble_InventoryUITests.swift; sourceTree = "<group>"; };
+		6E27ED4D26EE813700CB89E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6ECEE2CB26EC2F9100C20BDB /* Frameworks */ = {
+		6E27ED2026EE813500CB89E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECEE2E426EC2F9200C20BDB /* Frameworks */ = {
+		6E27ED3926EE813700CB89E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECEE2EF26EC2F9200C20BDB /* Frameworks */ = {
+		6E27ED4426EE813700CB89E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,64 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6ECEE2C526EC2F9100C20BDB = {
+		6E27ED1A26EE813500CB89E3 = {
 			isa = PBXGroup;
 			children = (
-				6ECEE30426EC30CE00C20BDB /* README.md */,
-				6ECEE2D026EC2F9100C20BDB /* Nimble Inventory */,
-				6ECEE2EA26EC2F9200C20BDB /* Nimble InventoryTests */,
-				6ECEE2F526EC2F9200C20BDB /* Nimble InventoryUITests */,
-				6ECEE2CF26EC2F9100C20BDB /* Products */,
+				6E27ED2526EE813500CB89E3 /* Nimble Inventory */,
+				6E27ED3F26EE813700CB89E3 /* Nimble InventoryTests */,
+				6E27ED4A26EE813700CB89E3 /* Nimble InventoryUITests */,
+				6E27ED2426EE813500CB89E3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6ECEE2CF26EC2F9100C20BDB /* Products */ = {
+		6E27ED2426EE813500CB89E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6ECEE2CE26EC2F9100C20BDB /* Nimble Inventory.app */,
-				6ECEE2E726EC2F9200C20BDB /* Nimble InventoryTests.xctest */,
-				6ECEE2F226EC2F9200C20BDB /* Nimble InventoryUITests.xctest */,
+				6E27ED2326EE813500CB89E3 /* Nimble Inventory.app */,
+				6E27ED3C26EE813700CB89E3 /* Nimble InventoryTests.xctest */,
+				6E27ED4726EE813700CB89E3 /* Nimble InventoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6ECEE2D026EC2F9100C20BDB /* Nimble Inventory */ = {
+		6E27ED2526EE813500CB89E3 /* Nimble Inventory */ = {
 			isa = PBXGroup;
 			children = (
-				6ECEE2D126EC2F9100C20BDB /* AppDelegate.swift */,
-				6ECEE2D326EC2F9100C20BDB /* SceneDelegate.swift */,
-				6ECEE2D526EC2F9100C20BDB /* ContentView.swift */,
-				6ECEE2DA26EC2F9200C20BDB /* Assets.xcassets */,
-				6ECEE2DF26EC2F9200C20BDB /* LaunchScreen.storyboard */,
-				6ECEE2E226EC2F9200C20BDB /* Info.plist */,
-				6ECEE2D726EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld */,
-				6ECEE2DC26EC2F9200C20BDB /* Preview Content */,
+				6E27ED2626EE813500CB89E3 /* AppDelegate.swift */,
+				6E27ED2826EE813500CB89E3 /* SceneDelegate.swift */,
+				6E27ED2A26EE813500CB89E3 /* ViewController.swift */,
+				6E27ED2C26EE813500CB89E3 /* Main.storyboard */,
+				6E27ED3226EE813700CB89E3 /* Assets.xcassets */,
+				6E27ED3426EE813700CB89E3 /* LaunchScreen.storyboard */,
+				6E27ED3726EE813700CB89E3 /* Info.plist */,
+				6E27ED2F26EE813500CB89E3 /* Nimble_Inventory.xcdatamodeld */,
 			);
 			path = "Nimble Inventory";
 			sourceTree = "<group>";
 		};
-		6ECEE2DC26EC2F9200C20BDB /* Preview Content */ = {
+		6E27ED3F26EE813700CB89E3 /* Nimble InventoryTests */ = {
 			isa = PBXGroup;
 			children = (
-				6ECEE2DD26EC2F9200C20BDB /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6ECEE2EA26EC2F9200C20BDB /* Nimble InventoryTests */ = {
-			isa = PBXGroup;
-			children = (
-				6ECEE2EB26EC2F9200C20BDB /* Nimble_InventoryTests.swift */,
-				6ECEE2ED26EC2F9200C20BDB /* Info.plist */,
+				6E27ED4026EE813700CB89E3 /* Nimble_InventoryTests.swift */,
+				6E27ED4226EE813700CB89E3 /* Info.plist */,
 			);
 			path = "Nimble InventoryTests";
 			sourceTree = "<group>";
 		};
-		6ECEE2F526EC2F9200C20BDB /* Nimble InventoryUITests */ = {
+		6E27ED4A26EE813700CB89E3 /* Nimble InventoryUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6ECEE2F626EC2F9200C20BDB /* Nimble_InventoryUITests.swift */,
-				6ECEE2F826EC2F9200C20BDB /* Info.plist */,
+				6E27ED4B26EE813700CB89E3 /* Nimble_InventoryUITests.swift */,
+				6E27ED4D26EE813700CB89E3 /* Info.plist */,
 			);
 			path = "Nimble InventoryUITests";
 			sourceTree = "<group>";
@@ -144,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */ = {
+		6E27ED2226EE813500CB89E3 /* Nimble Inventory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ECEE2FB26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble Inventory" */;
+			buildConfigurationList = 6E27ED5026EE813700CB89E3 /* Build configuration list for PBXNativeTarget "Nimble Inventory" */;
 			buildPhases = (
-				6ECEE2CA26EC2F9100C20BDB /* Sources */,
-				6ECEE2CB26EC2F9100C20BDB /* Frameworks */,
-				6ECEE2CC26EC2F9100C20BDB /* Resources */,
+				6E27ED1F26EE813500CB89E3 /* Sources */,
+				6E27ED2026EE813500CB89E3 /* Frameworks */,
+				6E27ED2126EE813500CB89E3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -158,68 +148,68 @@
 			);
 			name = "Nimble Inventory";
 			productName = "Nimble Inventory";
-			productReference = 6ECEE2CE26EC2F9100C20BDB /* Nimble Inventory.app */;
+			productReference = 6E27ED2326EE813500CB89E3 /* Nimble Inventory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6ECEE2E626EC2F9200C20BDB /* Nimble InventoryTests */ = {
+		6E27ED3B26EE813700CB89E3 /* Nimble InventoryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ECEE2FE26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryTests" */;
+			buildConfigurationList = 6E27ED5326EE813700CB89E3 /* Build configuration list for PBXNativeTarget "Nimble InventoryTests" */;
 			buildPhases = (
-				6ECEE2E326EC2F9200C20BDB /* Sources */,
-				6ECEE2E426EC2F9200C20BDB /* Frameworks */,
-				6ECEE2E526EC2F9200C20BDB /* Resources */,
+				6E27ED3826EE813700CB89E3 /* Sources */,
+				6E27ED3926EE813700CB89E3 /* Frameworks */,
+				6E27ED3A26EE813700CB89E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6ECEE2E926EC2F9200C20BDB /* PBXTargetDependency */,
+				6E27ED3E26EE813700CB89E3 /* PBXTargetDependency */,
 			);
 			name = "Nimble InventoryTests";
 			productName = "Nimble InventoryTests";
-			productReference = 6ECEE2E726EC2F9200C20BDB /* Nimble InventoryTests.xctest */;
+			productReference = 6E27ED3C26EE813700CB89E3 /* Nimble InventoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6ECEE2F126EC2F9200C20BDB /* Nimble InventoryUITests */ = {
+		6E27ED4626EE813700CB89E3 /* Nimble InventoryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ECEE30126EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryUITests" */;
+			buildConfigurationList = 6E27ED5626EE813700CB89E3 /* Build configuration list for PBXNativeTarget "Nimble InventoryUITests" */;
 			buildPhases = (
-				6ECEE2EE26EC2F9200C20BDB /* Sources */,
-				6ECEE2EF26EC2F9200C20BDB /* Frameworks */,
-				6ECEE2F026EC2F9200C20BDB /* Resources */,
+				6E27ED4326EE813700CB89E3 /* Sources */,
+				6E27ED4426EE813700CB89E3 /* Frameworks */,
+				6E27ED4526EE813700CB89E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6ECEE2F426EC2F9200C20BDB /* PBXTargetDependency */,
+				6E27ED4926EE813700CB89E3 /* PBXTargetDependency */,
 			);
 			name = "Nimble InventoryUITests";
 			productName = "Nimble InventoryUITests";
-			productReference = 6ECEE2F226EC2F9200C20BDB /* Nimble InventoryUITests.xctest */;
+			productReference = 6E27ED4726EE813700CB89E3 /* Nimble InventoryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6ECEE2C626EC2F9100C20BDB /* Project object */ = {
+		6E27ED1B26EE813500CB89E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					6ECEE2CD26EC2F9100C20BDB = {
+					6E27ED2226EE813500CB89E3 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					6ECEE2E626EC2F9200C20BDB = {
+					6E27ED3B26EE813700CB89E3 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 6ECEE2CD26EC2F9100C20BDB;
+						TestTargetID = 6E27ED2226EE813500CB89E3;
 					};
-					6ECEE2F126EC2F9200C20BDB = {
+					6E27ED4626EE813700CB89E3 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 6ECEE2CD26EC2F9100C20BDB;
+						TestTargetID = 6E27ED2226EE813500CB89E3;
 					};
 				};
 			};
-			buildConfigurationList = 6ECEE2C926EC2F9100C20BDB /* Build configuration list for PBXProject "Nimble Inventory" */;
+			buildConfigurationList = 6E27ED1E26EE813500CB89E3 /* Build configuration list for PBXProject "Nimble Inventory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,37 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 6ECEE2C526EC2F9100C20BDB;
-			productRefGroup = 6ECEE2CF26EC2F9100C20BDB /* Products */;
+			mainGroup = 6E27ED1A26EE813500CB89E3;
+			productRefGroup = 6E27ED2426EE813500CB89E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */,
-				6ECEE2E626EC2F9200C20BDB /* Nimble InventoryTests */,
-				6ECEE2F126EC2F9200C20BDB /* Nimble InventoryUITests */,
+				6E27ED2226EE813500CB89E3 /* Nimble Inventory */,
+				6E27ED3B26EE813700CB89E3 /* Nimble InventoryTests */,
+				6E27ED4626EE813700CB89E3 /* Nimble InventoryUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6ECEE2CC26EC2F9100C20BDB /* Resources */ = {
+		6E27ED2126EE813500CB89E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECEE2E126EC2F9200C20BDB /* LaunchScreen.storyboard in Resources */,
-				6ECEE2DE26EC2F9200C20BDB /* Preview Assets.xcassets in Resources */,
-				6ECEE2DB26EC2F9200C20BDB /* Assets.xcassets in Resources */,
+				6E27ED3626EE813700CB89E3 /* LaunchScreen.storyboard in Resources */,
+				6E27ED3326EE813700CB89E3 /* Assets.xcassets in Resources */,
+				6E27ED2E26EE813500CB89E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECEE2E526EC2F9200C20BDB /* Resources */ = {
+		6E27ED3A26EE813700CB89E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECEE2F026EC2F9200C20BDB /* Resources */ = {
+		6E27ED4526EE813700CB89E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,53 +257,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6ECEE2CA26EC2F9100C20BDB /* Sources */ = {
+		6E27ED1F26EE813500CB89E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECEE2D226EC2F9100C20BDB /* AppDelegate.swift in Sources */,
-				6ECEE2D926EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld in Sources */,
-				6ECEE2D426EC2F9100C20BDB /* SceneDelegate.swift in Sources */,
-				6ECEE2D626EC2F9100C20BDB /* ContentView.swift in Sources */,
+				6E27ED2B26EE813500CB89E3 /* ViewController.swift in Sources */,
+				6E27ED3126EE813500CB89E3 /* Nimble_Inventory.xcdatamodeld in Sources */,
+				6E27ED2726EE813500CB89E3 /* AppDelegate.swift in Sources */,
+				6E27ED2926EE813500CB89E3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECEE2E326EC2F9200C20BDB /* Sources */ = {
+		6E27ED3826EE813700CB89E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECEE2EC26EC2F9200C20BDB /* Nimble_InventoryTests.swift in Sources */,
+				6E27ED4126EE813700CB89E3 /* Nimble_InventoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ECEE2EE26EC2F9200C20BDB /* Sources */ = {
+		6E27ED4326EE813700CB89E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ECEE2F726EC2F9200C20BDB /* Nimble_InventoryUITests.swift in Sources */,
+				6E27ED4C26EE813700CB89E3 /* Nimble_InventoryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6ECEE2E926EC2F9200C20BDB /* PBXTargetDependency */ = {
+		6E27ED3E26EE813700CB89E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */;
-			targetProxy = 6ECEE2E826EC2F9200C20BDB /* PBXContainerItemProxy */;
+			target = 6E27ED2226EE813500CB89E3 /* Nimble Inventory */;
+			targetProxy = 6E27ED3D26EE813700CB89E3 /* PBXContainerItemProxy */;
 		};
-		6ECEE2F426EC2F9200C20BDB /* PBXTargetDependency */ = {
+		6E27ED4926EE813700CB89E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6ECEE2CD26EC2F9100C20BDB /* Nimble Inventory */;
-			targetProxy = 6ECEE2F326EC2F9200C20BDB /* PBXContainerItemProxy */;
+			target = 6E27ED2226EE813500CB89E3 /* Nimble Inventory */;
+			targetProxy = 6E27ED4826EE813700CB89E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6ECEE2DF26EC2F9200C20BDB /* LaunchScreen.storyboard */ = {
+		6E27ED2C26EE813500CB89E3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6ECEE2E026EC2F9200C20BDB /* Base */,
+				6E27ED2D26EE813500CB89E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E27ED3426EE813700CB89E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E27ED3526EE813700CB89E3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -321,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6ECEE2F926EC2F9200C20BDB /* Debug */ = {
+		6E27ED4E26EE813700CB89E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		6ECEE2FA26EC2F9200C20BDB /* Release */ = {
+		6E27ED4F26EE813700CB89E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,14 +435,12 @@
 			};
 			name = Release;
 		};
-		6ECEE2FC26EC2F9200C20BDB /* Debug */ = {
+		6E27ED5126EE813700CB89E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Nimble Inventory/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Nimble Inventory/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,14 +453,12 @@
 			};
 			name = Debug;
 		};
-		6ECEE2FD26EC2F9200C20BDB /* Release */ = {
+		6E27ED5226EE813700CB89E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Nimble Inventory/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Nimble Inventory/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,7 +471,7 @@
 			};
 			name = Release;
 		};
-		6ECEE2FF26EC2F9200C20BDB /* Debug */ = {
+		6E27ED5426EE813700CB89E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,7 +492,7 @@
 			};
 			name = Debug;
 		};
-		6ECEE30026EC2F9200C20BDB /* Release */ = {
+		6E27ED5526EE813700CB89E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -519,7 +513,7 @@
 			};
 			name = Release;
 		};
-		6ECEE30226EC2F9200C20BDB /* Debug */ = {
+		6E27ED5726EE813700CB89E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		6ECEE30326EC2F9200C20BDB /* Release */ = {
+		6E27ED5826EE813700CB89E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -560,38 +554,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6ECEE2C926EC2F9100C20BDB /* Build configuration list for PBXProject "Nimble Inventory" */ = {
+		6E27ED1E26EE813500CB89E3 /* Build configuration list for PBXProject "Nimble Inventory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ECEE2F926EC2F9200C20BDB /* Debug */,
-				6ECEE2FA26EC2F9200C20BDB /* Release */,
+				6E27ED4E26EE813700CB89E3 /* Debug */,
+				6E27ED4F26EE813700CB89E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ECEE2FB26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble Inventory" */ = {
+		6E27ED5026EE813700CB89E3 /* Build configuration list for PBXNativeTarget "Nimble Inventory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ECEE2FC26EC2F9200C20BDB /* Debug */,
-				6ECEE2FD26EC2F9200C20BDB /* Release */,
+				6E27ED5126EE813700CB89E3 /* Debug */,
+				6E27ED5226EE813700CB89E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ECEE2FE26EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryTests" */ = {
+		6E27ED5326EE813700CB89E3 /* Build configuration list for PBXNativeTarget "Nimble InventoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ECEE2FF26EC2F9200C20BDB /* Debug */,
-				6ECEE30026EC2F9200C20BDB /* Release */,
+				6E27ED5426EE813700CB89E3 /* Debug */,
+				6E27ED5526EE813700CB89E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ECEE30126EC2F9200C20BDB /* Build configuration list for PBXNativeTarget "Nimble InventoryUITests" */ = {
+		6E27ED5626EE813700CB89E3 /* Build configuration list for PBXNativeTarget "Nimble InventoryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ECEE30226EC2F9200C20BDB /* Debug */,
-				6ECEE30326EC2F9200C20BDB /* Release */,
+				6E27ED5726EE813700CB89E3 /* Debug */,
+				6E27ED5826EE813700CB89E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -599,17 +593,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6ECEE2D726EC2F9100C20BDB /* Nimble_Inventory.xcdatamodeld */ = {
+		6E27ED2F26EE813500CB89E3 /* Nimble_Inventory.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6ECEE2D826EC2F9100C20BDB /* Nimble_Inventory.xcdatamodel */,
+				6E27ED3026EE813500CB89E3 /* Nimble_Inventory.xcdatamodel */,
 			);
-			currentVersion = 6ECEE2D826EC2F9100C20BDB /* Nimble_Inventory.xcdatamodel */;
+			currentVersion = 6E27ED3026EE813500CB89E3 /* Nimble_Inventory.xcdatamodel */;
 			path = Nimble_Inventory.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 6ECEE2C626EC2F9100C20BDB /* Project object */;
+	rootObject = 6E27ED1B26EE813500CB89E3 /* Project object */;
 }
