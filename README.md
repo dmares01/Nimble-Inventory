@@ -1,4 +1,5 @@
 #  __Nimble Inventory__
+<img src="https://img.shields.io/github/last-commit/dmares01/Nimble-Inventory" />
 ## What does it do?
 As of right now? It is nothing more than a simple hello world script but the future holds big plans my friend. The aim is to make an inventory tracker for a local coffee shop that can not only keep track of the simple things, think lids, cups, straws, etc, but also keep track of how much syrup or milk is left. 
 
